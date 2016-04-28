@@ -1,0 +1,19 @@
+uint8 descriptor
+uint32 time_stamp
+uint8 check_length
+int32 q0_sp
+int32 q1_sp
+int32 q2_sp
+int32 q3_sp
+int32 thrust_force
+uint16 check_sum
+int16 pos_sp_x
+int16 pos_sp_y
+int16 pos_sp_z
+int16 vel_ff_x
+int16 vel_ff_y
+int16 vel_ff_z
+int16 acc_ff_x
+int16 acc_ff_y
+int16 acc_ff_z
+

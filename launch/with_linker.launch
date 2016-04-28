@@ -1,0 +1,8 @@
+<launch>
+  <!-- 0-none, 1-states, 2-commands, 3-control_sp, 4-control_ff -->
+  <param name="auxSend" value="3" type="int" />
+
+  <node pkg="r2sim" name="simlinker" type="simlinker" />
+  <node pkg="r2sim" name="simcommander" type="simcommander" output="screen"/>
+  <node pkg="r2sim" name="simcontroller" type="simcontroller" />
+</launch>
